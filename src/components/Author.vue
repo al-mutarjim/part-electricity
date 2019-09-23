@@ -1,17 +1,18 @@
 <template>
 	<div class="author">
 
-		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metaData.siteName }}
+		<h1 v-if="showTitle" class="author__site-title" style="margin-bottom: 20px;">
+			<i class="fas fa-sun fa-3x"></i>
+			&nbsp; {{ $static.metaData.siteName }}
 		</h1>
 
-		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.
+		<p class="author__intro" style="margin-bottom: 47px; text-align: right;">
+			Νε vελ ομνεσ φαβθλασ. Cορπορα cοπιοσαε ρεφορμιδανσ ναμ θτ. Vισ ιν μανδαμθσ ινcορρθπτε. Vιμ ωισι οφφενδιτ ρεφορμιδανσ τε, ατqθι νονθμυ πθτεντ νο qθι, vελ αδ ενιμ vερι φαλλι. Περ πορρο ελειφενδ cθ, δενιqθε μολεστιαε ιδ προ.
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/suits_at">Follow on Twitter</a>
-			<a href="https://github.com/suits-at/netlifycms-gridsome">GitHub</a>
+			<i class="fab fa-twitter fa-2x"></i>&nbsp;&nbsp;
+			<i class="fab fa-github fa-2x"></i>
 		</p>
 
 	</div>

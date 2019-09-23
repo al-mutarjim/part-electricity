@@ -11,7 +11,10 @@
     "@gridsome/remark-prismjs": "^0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.3.3",
-    "gridsome": "^0.6.9"
+    "gridsome": "^0.6.9",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

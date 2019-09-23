@@ -1,11 +1,14 @@
-// Default variables
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons');
+
 html {
 	--base-font-size: 20px;
+	font-family: "News Cycle", sans-serif;
 }
 
 // Light default theme
 body {
- 	--bg-color: #F3F7F9;
+ 	--bg-color: #ffffe0;
  	--bg-content-color: #fff;
  	--bg-code: #fffbf3;
  	--body-color: #444;
@@ -39,4 +42,8 @@ body[data-theme="dark"] {
  	--body-color: #ced8de;
  	--title-color: #fff;
  	--link-color: #af9cef;
+}
+
+i {
+	vertical-align: middle;
 }

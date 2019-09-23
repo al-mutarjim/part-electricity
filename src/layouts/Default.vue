@@ -16,8 +16,8 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//www.suits.at"> SUITS </a></span>
+      <span class="footer__copyright">Clonado na Samboja {{ new Date().getFullYear() }} e honi soit qui mal y pense </span>
+      <span class="footer__links">Propulsado pelo <a href="//www.suits.at"> SUITS </a></span>
     </footer>
 
   </div>
@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style lang="scss">
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css');
+
 .header {
   display: flex;
   justify-content: space-between;
